@@ -1,0 +1,103 @@
+/* Background da Página */
+.bg-img {
+    background-image: url(./imagens/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+   
+ }
+
+ 
+/* Background nav "nosso robô */
+ .dropdown-menu {
+    background-color: #000000; 
+    
+}
+
+
+/* Cor da Nav */
+ul a:hover {
+   color:  #9340FF !important;
+}
+
+ /* Botões */
+
+ .btn-geral {
+     border-radius: 100rem;
+     padding:1em;
+     font-size:1.2em;
+     padding:.8rem 4rem;
+     border: transparent;
+     background: linear-gradient(to right, #FF3C5F, #9340FF);
+     
+ }
+
+ .btn-geral:hover {
+   transition: transform 0.3s; 
+   transform: scale(1.1); 
+       
+}
+
+
+ /* Tamanho da fonte Andrômeda */
+ .fw-semibold {
+     font-size: 50px;
+     
+ }
+ 
+ /* Texto home */
+
+ .lh-base {
+     text-align: justify;
+     position: relative;
+ }
+
+ p {
+    text-align: justify;
+ }
+ 
+ .fw-medium {
+     align-items: center;
+     margin-right: 20px;
+ }
+
+ .rounded {
+    width: 90%;
+ }
+
+ .fs-1 {
+    color: #f7eded;
+ }
+ 
+ .embed-responsive {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+ }
+
+ .footer{
+    width: 2.5%;
+ }
+
+ .accordion {
+    text-align: start;
+ }
+
+ .custom-accordion-button.collapsed::before {
+    border-top-color: white;
+}
+
+.card-link{
+   color: #9340FF;
+}
+
+/* Transição de todas as imagens */
+.img-transition {
+   transition: transform 0.3s ; 
+}
+
+
+.img-transition:hover {
+   transform: scale(1.1); 
+}
+
